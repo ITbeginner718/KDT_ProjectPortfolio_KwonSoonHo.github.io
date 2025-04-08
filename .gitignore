@@ -1,0 +1,9 @@
+# DB 폴더 하위 폴더까지 전부 무시
+node_modules/
+
+DB/
+
+package-lock.json
+
+package.json
+

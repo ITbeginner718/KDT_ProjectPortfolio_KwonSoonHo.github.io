@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+
+.card_block
+{
+    /*  
+부모요소에 display: flex;를 주면 flex에 지원하는 속성들을 사용할 수 있다.
+justify-content속성에 flex-start를 하면 왼쪽정렬, flex-end를 하면 오른쪽정렬
+
+align-items도 마찬가지로 flex-start를 하면 위쪽정렬, flex-end를 하면 아래쪽정렬
+
+이 둘을 조합해서 사용하는것도 가능하다. */
+/* 하위 태그들이 기본 가로 방향으로 배치 */
+    display: flex;
+/* 각 요소에 양쪽에 좌우로 동일한 간격을 두는 방식 */
+    justify-content: space-around; 
+/*  상하로 동일한 간격을 두는 방식*/
+    align-items: center;
+}
+
+.card_img
+{
+    width:300px;
+}
+.card_button
+{
+    width:100px;
+    height:100%;
+}
