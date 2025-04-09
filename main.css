@@ -25,6 +25,11 @@ align-items도 마찬가지로 flex-start를 하면 위쪽정렬, flex-end를 �
 }
 .card_button
 {
-    width:100px;
+    width:150px;
     height:100%;
+}
+
+#intro
+{
+    text-align: center;
 }
